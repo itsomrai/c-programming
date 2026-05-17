@@ -8,6 +8,5 @@ int main()
     printf("the address of a is %u\n ",ptr);
     ptr++;
     printf("the address of ptr is %u\n ",ptr);//THE DIFFERENCE WILL COME OF 4 BYTES
-
 return 0;
 }
