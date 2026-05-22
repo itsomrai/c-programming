@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include<limits.h>
 int main()
 {
 int arr[5]={93,43,55,67,32};
-int min=arr[0];
+int min=INT_MAX;
+
 for (int i = 0; i < 5 ; i++)
 {
     if(min>arr[i]){
